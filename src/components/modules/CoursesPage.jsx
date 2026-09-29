@@ -15,6 +15,7 @@ function CourseDetails({ course, onBack, onEnroll }) {
   return (
     <div className="course-detail">
       <button className="course-detail-back" onClick={onBack}>
+        console.log("Back to my courses")
         ← Back to my courses
       </button>
       <div className="course-detail-hero">
